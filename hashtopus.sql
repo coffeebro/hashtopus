@@ -512,3 +512,5 @@ INSERT INTO `hashtypes` (`id`, `description`) VALUES
 
 INSERT INTO `hashcatreleases` (`version`, `time`, `url_nvidia`, `url_amd`, `common_files`, `32_nvidia`, `64_nvidia`, `32_amd`, `64_amd`, `rootdir_nvidia`, `rootdir_amd`, `minver_nvidia`, `minver_amd`) VALUES
 ('1.37', UNIX_TIMESTAMP(NOW()), 'http://hashcat.net/files/cudaHashcat-1.37.7z', 'http://hashcat.net/files/oclHashcat-1.37.7z', 'hashcat.hcstat hashcat.keyfile', 'kernels/4318/*32.ptx', 'kernels/4318/*64.ptx', 'kernels/4098/*.llvmir', 'kernels/4098/*.llvmir', 'cudaHashcat-1.37', 'oclHashcat-1.37', 34600, 1409);
+INSERT INTO `hashcatreleases` (`version`, `time`, `url_nvidia`, `url_amd`, `common_files`, `32_nvidia`, `64_nvidia`, `32_amd`, `64_amd`, `rootdir_nvidia`, `rootdir_amd`, `minver_nvidia`, `minver_amd`) VALUES
+('2.01', UNIX_TIMESTAMP(NOW()), 'http://hashcat.net/files/cudaHashcat-2.01.7z', 'http://hashcat.net/files/oclHashcat-2.01.7z', 'hashcat.hcstat hashcat.keyfile', 'kernels/4318/*32.ptx', 'kernels/4318/*64.ptx', 'kernels/4098/*.llvmir', 'kernels/4098/*.llvmir', 'cudaHashcat-2.01', 'oclHashcat-2.01', 34600, 1409);
